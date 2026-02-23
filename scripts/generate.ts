@@ -183,7 +183,7 @@ const sendBatchEmail = async (success: any[], failed: any[]) => {
 
   const folderStats = getFolderStats(GENERATED_DIR);
 
-  const subject = `Content Generation Report - ${dateTimeStr} - ${success.length} Success, ${failed.length} Failed`;
+  const subject = `Content Generation Report Api- 5 - ${dateTimeStr} - ${success.length} Success, ${failed.length} Failed`;
 
   const body = `
 Multi-Key Api Number 5 Content Generation Report
