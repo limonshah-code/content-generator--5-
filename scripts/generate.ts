@@ -147,7 +147,7 @@ const processFile = async (file: any, model: string) => {
 
 // ================= PARALLEL QUEUE =================
 const runQueue = async (files: any[]) => {
-  const model = process.env.GEMINI_MODEL || 'Gemini 2.5 Pro';
+  const model = process.env.GEMINI_MODEL || 'gemini-3-flash-preview';
   const results: any[] = [];
   let index = 0;
 
