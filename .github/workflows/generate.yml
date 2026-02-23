@@ -28,6 +28,7 @@ jobs:
         env:
           GEMINI_API_KEY1: ${{ secrets.GEMINI_API_KEY1 }}
           GEMINI_API_KEY2: ${{ secrets.GEMINI_API_KEY2 }}
+          GEMINI_API_KEY3: ${{ secrets.GEMINI_API_KEY3 }}
           EMAIL_HOST: smtp.gmail.com
           EMAIL_PORT: 587
           EMAIL_USER: limon.working@gmail.com
