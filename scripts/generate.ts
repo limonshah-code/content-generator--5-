@@ -186,7 +186,7 @@ const sendBatchEmail = async (success: any[], failed: any[]) => {
   const subject = `Content Generation Report - ${dateTimeStr} - ${success.length} Success, ${failed.length} Failed`;
 
   const body = `
-Multi-Key Content Generation Report
+Multi-Key Api Number 5 Content Generation Report
 ----------------------------------
 Date & Time (BDT): ${dateTimeStr}
 Total Processed: ${success.length + failed.length}
