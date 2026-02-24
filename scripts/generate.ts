@@ -10,10 +10,10 @@ const EXTERNAL_API_BASE = 'https://cloud-text-manager-server.vercel.app';
 const EXTERNAL_API_URL = `${EXTERNAL_API_BASE}/api/all-files`;
 const GENERATED_DIR = path.join(process.cwd(), 'generated-content');
 
-const BATCH_SIZE = 25;
+const BATCH_SIZE = 15;
 const CONCURRENCY_LIMIT = 1;
 const REQUEST_DELAY = 1200;
-const MAX_RETRIES = 5;
+const MAX_RETRIES = 3;
 
 // Ensure output directory exists
 if (!fs.existsSync(GENERATED_DIR)) {
@@ -241,5 +241,6 @@ const run = async () => {
     process.exit(1);
   }
 };
+
 
 run();
